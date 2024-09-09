@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/menu.xsd">
+    <menu>
+        <!-- Add custom menu under the 'Customers' section -->
+        <add id="Abs_CustomerPasswordUpdate::update_password_main"
+             title="Update Customers Password"
+             module="Abs_CustomerPasswordUpdate"
+             parent="Magento_Customer::customer"
+             resource="Abs_CustomerPasswordUpdate::update_password_main"
+             action="passwordupdate/customer/index"
+             sortOrder="100"/>
+    </menu>
+</config>
