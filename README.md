@@ -6,5 +6,9 @@ Developed By
 
 Mihir Modi - mihirmodi562@gmail.com - 9737405015
 
-# Abs_CustomerPasswordUpdate
-Magento Admin Extension for User Password Management  ->This extension empowers administrators with the ability to conveniently change user passwords directly from the Magento admin panel.
+Installation 
+
+- please download zip and paste it in to app/code/Abs/CustomerPasswordUpdate and extract
+- Run Command -> php bin/magento setup:upgrade
+- Run Command -> php bin/magento setup:static-content:deploy -f
+- Run Command -> php bin/magento cache:flush
